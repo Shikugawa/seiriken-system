@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "outDir": "public",
+    "lib": ["dom", "es7"],
+    "sourceMap": true,
+    "inlineSources": true,
+    "moduleResolution": "node",
+    "jsx": "react"
+  },
+  "include": [
+    "server/**/*",
+    "client/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
